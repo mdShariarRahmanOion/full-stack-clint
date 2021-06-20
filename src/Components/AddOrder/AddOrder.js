@@ -12,7 +12,7 @@ const AddOrder = () => {
             imageURL: imageURL
         };
        
-        const url = `http://localhost:5055/addOrder`;
+        const url = `https://desolate-tor-51962.herokuapp.com/addOrder`;
         console.log(eventData)
         fetch(url,{
             method: 'POST',
@@ -44,14 +44,14 @@ const AddOrder = () => {
 
     return (
         <div>
-            <h1>Add Your Food Order Here</h1>
+            {/* <h1>Add Your Food Order Here</h1>
             <form onSubmit={handleSubmit(onSubmit)}>
       <input name ="name"defaultValue="test" {...register("name")} />
       <br />
     <input name="exampleRequired" type="file" onChange={handleImageUpload} ></input>
 
     <br /> <input type="submit" />
-    </form>
+    </form> */}
 
         </div>
     );

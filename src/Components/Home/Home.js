@@ -4,7 +4,7 @@ import Order from '../Order/Order';
 const Home = () => {
     const [events, setOrders] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5055/order')
+        fetch('https://desolate-tor-51962.herokuapp.com/order')
         .then(res => res.json())
         .then(data => setOrders(data))
     }, [])

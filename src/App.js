@@ -9,8 +9,6 @@ import {
 } from "react-router-dom";
 // import Home from './Components/Home/Home'
 import Home from './Components/Home/Home'
-import Order from './Components/Order/Order'
-import Admin from './Components/Admin/Admin'
 import Login from './Components/Login/Login'
 import AddOrder from './Components/AddOrder/AddOrder';
 import NoteMatch from './Components/NotMatch/NoteMatch';
